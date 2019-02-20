@@ -20,7 +20,7 @@ public class FizzBuzz {
             return "Fizz";
             }
             else{
-                if (num%5==0 || Integer.toString(num).contains("5")){
+                if (num%5==0){
                 return "Buzz";
                 }
                 else {

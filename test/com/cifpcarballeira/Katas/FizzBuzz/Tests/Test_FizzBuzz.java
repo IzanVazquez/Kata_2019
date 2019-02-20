@@ -5,38 +5,50 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Test_FizzBuzz {
-    
+
     public Test_FizzBuzz() {
     }
 
     @Test
     public void test1devuelve1() {
-        FizzBuzz fb=new FizzBuzz();
+        FizzBuzz fb = new FizzBuzz();
         String resultado = fb.getFizzBuzz(1);
-        assertEquals("1",resultado);
+        assertEquals("1", resultado);
     }
+
     @Test
     public void test2devuelve2() {
-        FizzBuzz fb=new FizzBuzz();
+        FizzBuzz fb = new FizzBuzz();
         String resultado = fb.getFizzBuzz(2);
-        assertEquals("2",resultado);
+        assertEquals("2", resultado);
     }
+
     @Test
     public void test3devuelveFizz() {
-        FizzBuzz fb=new FizzBuzz();
+        FizzBuzz fb = new FizzBuzz();
         String resultado = fb.getFizzBuzz(3);
-        assertEquals("Fizz",resultado);
+        assertEquals("Fizz", resultado);
     }
+
     @Test
     public void test4devuelveBuzz() {
-        FizzBuzz fb=new FizzBuzz();
+        FizzBuzz fb = new FizzBuzz();
         String resultado = fb.getFizzBuzz(5);
-        assertEquals("Buzz",resultado);
+        assertEquals("Buzz", resultado);
     }
+
     @Test
     public void test5devuelveFizzBuzz() {
-        FizzBuzz fb=new FizzBuzz();
+        FizzBuzz fb = new FizzBuzz();
         String resultado = fb.getFizzBuzz(15);
-        assertEquals("FizzBuzz",resultado);
+        assertEquals("FizzBuzz", resultado);
     }
+
+    @Test
+    public void test7devuelveFizzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.getFizzBuzz(25);
+        assertEquals("Buzz", resultado);
+    }
+
 }
