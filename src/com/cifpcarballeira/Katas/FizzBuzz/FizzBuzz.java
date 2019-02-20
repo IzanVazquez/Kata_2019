@@ -16,7 +16,7 @@ public class FizzBuzz {
             return "FizzBuzz";
         }
         else{
-            if (num%3==0){
+            if (num%3==0 || Integer.toString(num).contains("3")){
             return "Fizz";
             }
             else{
