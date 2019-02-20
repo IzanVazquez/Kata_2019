@@ -22,7 +22,7 @@ public class Test_FizzBuzz {
         assertEquals("2",resultado);
     }
     @Test
-    public void test3devuelve3() {
+    public void test3devuelveFizz() {
         FizzBuzz fb=new FizzBuzz();
         String resultado = fb.getFizzBuzz(3);
         assertEquals("Fizz",resultado);
